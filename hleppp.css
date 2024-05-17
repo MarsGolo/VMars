@@ -1,0 +1,92 @@
+.scene {
+width: 100%;
+  height: 100%;
+  min-height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: black;
+  transform: translate3d(0, 0, 0);
+  }
+ .level-1 {
+	 animation: animation_fg liner 120s infinite both;
+	 background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D0%B7%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9%20%D0%B7%D0%B0%D0%B4%D0%BD%D0%B8%D0%B9%20%D1%84%D0%BE%D0%BD.png) 0 100% repeat-x;
+	 z-index: 1;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-size: auto 1080px;
+	 }
+	 .level-2 {
+	 animation: animation_fg liner 95s infinite both;
+	 background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D1%81%D0%B8%D0%BB%D1%83%D0%B5%D1%82%D1%8B%20%D0%B4%D0%B5%D1%80%D0%B5%D0%B2%D1%8C%D0%B5%D0%B2.png) 0 100% repeat-x;
+	 z-index: 1;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-size: auto 960px;
+	 }
+	 =.level-3 {
+	 animation: animation_fg liner 60s infinite both;
+	 background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D0%BB%D0%B5%D0%B6%D0%B8%D1%82%20%D0%BA%D1%83%D1%81%D1%82%204.png) 0 100% repeat-x;
+	 z-index: 1;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-size: auto 871px;
+	 }
+	 .level-4 {
+	 animation: animation_fg liner 40s infinite both;
+	 background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D1%81%D1%82%D0%BE%D1%8F%D1%82%20%D0%B6%D0%B8%D1%80%D0%B0%D1%84%D1%8B.png) 0 100% repeat-x;
+	 z-index: 1;
+	 position: absolute;
+	 bottom: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 100%;
+	 background-size: auto 543px;
+	 }
+	.pumba-1 {
+background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D0%BF%D1%83%D0%BC%D0%B1%D0%B0%20%D0%B8%D0%B4%D0%B5%D1%82.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 75px;
+animation: animation_pumba-1  linear 10s infinite both;
+	}
+	.pumba-2 {
+background: url(https://raw.githubusercontent.com/MarsGolo/VMars/main/%D1%82%D0%B8%D0%BC%D0%BE%D0%BD%20%D1%82%D0%B8%D0%BF%D0%B0%20%D0%B8%D0%B4%D0%B5%D1%82.png) 0 100% no-repeat;
+z-index: 1;
+position: absolute;
+bottom: 100px;
+left: 0;
+width: 100%;
+height: 100%;
+background-size: auto 75px;
+animation: animation_pumba-2 linear 15s infinite both;
+	}
+	@keyframes animation_fg {
+  0% {
+    background-position: 2765px 100%;
+  }
+  100% {
+    background-position: 550px 100%;
+  }
+}
+@keyframes animation_pumba {
+  0% {
+    background-position: -300px 100%;
+  }
+  100% {
+    background-position: 2000px 100%;
+  }
+}
